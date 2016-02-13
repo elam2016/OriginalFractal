@@ -8,7 +8,7 @@ void setup(){
 void draw(){
 	noStroke();
 	fill(255);
-	kochSnowflake(screenSize/2, screenSize/2 - 50, 240);
+	kochSnowflake(screenSize/2, screenSize/2 - 20, 480);
 }
 
 void kochSnowflake(int x, int y, float h){
